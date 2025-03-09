@@ -10,7 +10,7 @@ const app = express();
 connectDB();
 
 app.use(cors({
-    origin: 'https://effortless-paprenjak-7da32d.netlify.app/login',
+    origin: 'https://effortless-paprenjak-7da32d.netlify.app',
     credentials: true,
 }));
 
